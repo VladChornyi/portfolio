@@ -1,6 +1,9 @@
+import WelcomeSection from "@/shared/components/welcome-section/welcome-section";
 
 export default function Home() {
   return (
-   <h1>Portfolio</h1>
-  )
+    <div className="w-9/12	">
+      <WelcomeSection />
+    </div>
+  );
 }

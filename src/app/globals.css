@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --grad-1: rgb(120, 178, 63);
+  --grad-2: rgb(165, 110, 204);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +19,8 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  padding: 1.3em;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -25,4 +28,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.gradient1 {
+  stop-color: var(--grad-1);
+  transition: all 0.3s ease-in-out;
+}
+
+.gradient2 {
+  stop-color: var(--grad-2);
+  transition: all 0.3s ease-in-out;
+}
+
+.transparent-text {
+  -webkit-text-fill-color: transparent;
 }
