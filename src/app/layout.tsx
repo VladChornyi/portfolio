@@ -18,8 +18,8 @@ export default function RootLayout({
     <html lang="en">
       <body className="box-border flex flex-col min-h-screen font-sans text-slate-200 font-thin">
         <Header />
-        <main className="flex items-center grow justify-around ">
-          <div className="flex flex-col items-center w-9/12">{children}</div>
+        <main className="flex flex-col md:flex-row gap-12 items-center grow justify-around ">
+          <div className="flex flex-col items-center md:w-9/12">{children}</div>
           <Projects />
         </main>
         <Footer />

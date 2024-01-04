@@ -1,5 +1,9 @@
 import { StaticImageData } from "next/image";
 
+export type WithAdditionalClassname = {
+  className?: string;
+};
+
 export interface IImage {
   background: StaticImageData;
   screenshots: StaticImageData[];

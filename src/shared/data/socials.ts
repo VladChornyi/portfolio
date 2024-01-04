@@ -1,5 +1,6 @@
 import linkedin from "@/shared/icons/linkedin.svg";
 import github from "@/shared/icons/github.svg";
+import telegram from "@/shared/icons/telegram.svg";
 import { ISocial } from "../types";
 
 export const socials: ISocial[] = [
@@ -14,5 +15,11 @@ export const socials: ISocial[] = [
     name: "linkedin",
     link: "https://www.linkedin.com/in/vlad-4ornyi/",
     icon: linkedin,
+  },
+  {
+    id: "3",
+    name: "telegram",
+    link: "https://t.me/@Chornii_Vlad",
+    icon: telegram,
   },
 ];
