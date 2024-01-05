@@ -18,6 +18,7 @@ export interface ITechnology {
 export interface IProject {
   id: string;
   name: string;
+  slug: string;
   description: string;
   link: string;
   images: IImage;

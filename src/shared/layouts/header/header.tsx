@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="py-4">
-      <div className="container flex justify-between">
+    <header className="py-6">
+      <div className="px-12 flex justify-between">
         <AppLink
           className="text-3xl font-bold ease-in-out duration-300 hover:scale-125 transparent-text bg-gradient-to-r hover:bg-gradient-to-l bg-clip-text from-indigo-500 to-blue-500"
           href="/"
@@ -29,7 +29,3 @@ export default function Header() {
     </header>
   );
 }
-
-// background: -webkit-linear-gradient(#eee, #333);
-//   -webkit-background-clip: text;
-//   -webkit-text-fill-color: transparent;

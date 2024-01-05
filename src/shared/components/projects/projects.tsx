@@ -10,8 +10,8 @@ export default function Projects() {
           <li key={item.id}>
             <AppLink
               activeClass="active"
-              className="underlined font-inherit ease-in-out duration-300 hover:scale-125 inline-block opacity-60"
-              href={item.name}
+              className="underlined font-inherit ease-in-out duration-300 hover:scale-125 inline-block opacity-60 text-lg"
+              href={item.slug}
             >
               {item.name}
             </AppLink>

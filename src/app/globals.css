@@ -6,8 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 29, 29, 32;
   --background-end-rgb: 29, 29, 32;
-  --grad-1: rgb(120, 178, 63);
-  --grad-2: rgb(165, 110, 204);
+  --grad-1: #22c55e;
+  --grad-2: #6d28d9;
 }
 
 body {
