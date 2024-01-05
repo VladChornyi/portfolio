@@ -10,12 +10,12 @@ import googleIcon from "../icons/google.svg";
 import emotionIcon from "../icons/emotion.png";
 import tsIcon from "../icons/typescript.svg";
 
-import saiaImg from "../images/saia.png";
-import loialImg from "../images/loial.png";
-import abraajImg from "../images/abraaj.png";
-import lmsImg from "../images/goit.png";
-import mcluckImg from "../images/mcluck.png";
-import pulszImg from "../images/pulsz.png";
+import saiaImg from "../images/saia.jpg";
+import loialImg from "../images/loial.jpg";
+import abraajImg from "../images/abraaj.jpeg";
+import lmsImg from "../images/goit.jpg";
+import mcluckImg from "../images/mcluck.jpg";
+import pulszImg from "../images/pulsz.jpg";
 
 export const projects: IProject[] = [
   {
