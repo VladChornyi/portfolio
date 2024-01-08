@@ -3,7 +3,7 @@ import MainTitle from "../main-title/main-title";
 export default function WelcomeSection() {
   return (
     <section className="w-4/5 max-w-full">
-      <MainTitle>Welcome</MainTitle>
+      <MainTitle className="mb-4">Welcome</MainTitle>
       <h2 className="indent-4 mb-4">
         My name is Vlad, and I am a front-end developer based in Dnipro. I have
         experience in developing various projects, ranging from landing pages to
