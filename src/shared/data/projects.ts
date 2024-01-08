@@ -7,8 +7,9 @@ import swiperIcon from "../icons/swiper.svg";
 import sassIcon from "../icons/sass.svg";
 import reduxIcon from "../icons/redux.svg";
 import googleIcon from "../icons/google.svg";
-import emotionIcon from "../icons/emotion.png";
 import tsIcon from "../icons/typescript.svg";
+import gsapIcon from "../icons/gsap.svg";
+import jsIcon from "../icons/js.svg";
 
 import saiaImg from "../images/saia.jpg";
 import loialImg from "../images/loial.jpg";
@@ -16,6 +17,7 @@ import abraajImg from "../images/abraaj.jpeg";
 import lmsImg from "../images/goit.jpg";
 import mcluckImg from "../images/mcluck.jpg";
 import pulszImg from "../images/pulsz.jpg";
+import smartImg from "../images/smart.jpeg";
 
 export const projects: IProject[] = [
   {
@@ -74,21 +76,18 @@ export const projects: IProject[] = [
   },
   {
     id: "4",
-    name: "LMS",
-    slug: "lms",
+    name: "Smart Prospective",
+    slug: "smart",
     description:
-      "LMS is a comprehensive platform designed to facilitate student education. It provides a centralized hub for students, offering a wide range of features and tools to enhance the learning experience. This LMS is tailored to cater to the specific needs of educational institutions, instructors, and students alike.",
-    link: " https://www.edu.goit.global",
+      "Smart Prospective is a solution for real-time display advertising campaigns. This platform captures and transforms your physical store traffic. Its goal is to help spread the targeted message at the right time and measure its impact. Users enjoy remote display control and AI-powered ad targeting.",
+    link: "https://smartprospective.com/",
     images: {
-      background: lmsImg,
-      screenshots: [lmsImg],
+      background: smartImg,
+      screenshots: [smartImg],
     },
     technologies: [
-      { id: "1", name: "Next", icon: nextIcon },
-      { id: "8", name: "TypeScript", icon: tsIcon },
-      { id: "6", name: "Redux", icon: reduxIcon },
-      { id: "7", name: "Emotion", icon: emotionIcon },
-      { id: "8", name: "GoogleAuth", icon: googleIcon },
+      { id: "1", name: "JS", icon: jsIcon },
+      { id: "9", name: "GSAP", icon: gsapIcon },
     ],
   },
   {
@@ -104,7 +103,7 @@ export const projects: IProject[] = [
     },
     technologies: [
       { id: "1", name: "Next", icon: nextIcon },
-      { id: "8", name: "TypeScript", icon: tsIcon },
+      { id: "9", name: "TypeScript", icon: tsIcon },
       { id: "5", name: "Sass", icon: sassIcon },
       { id: "6", name: "Redux", icon: reduxIcon },
       { id: "8", name: "Google Services", icon: googleIcon },
